@@ -1,17 +1,10 @@
-import { Component, OnInit } from '@angular/core';
-import { Title } from '@angular/platform-browser';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit {
-  title = 'Nagamochi Japanese Academy';
-
-  constructor(private titleService: Title) {}
-
-  ngOnInit(): void {
-    this.titleService.setTitle(this.title);
-  }
+export class AppComponent {
+  title = 'mdb-angular-ui-kit-free';
 }

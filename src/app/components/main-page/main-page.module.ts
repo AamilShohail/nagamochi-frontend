@@ -5,13 +5,9 @@ import { MainPageComponent } from './main-page.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 
-import { MatIconModule } from '@angular/material/icon';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatButtonModule } from '@angular/material/button';
-
 @NgModule({
   declarations: [MainPageComponent, FooterComponent, HeaderComponent],
-  imports: [CommonModule, MatIconModule, MatToolbarModule, MatButtonModule],
+  imports: [CommonModule],
   exports: [MainPageComponent],
 })
 export class MainPageModule {}

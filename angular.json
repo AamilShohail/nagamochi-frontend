@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "mdb-angular-ui-kit-free:build:production"
+              "buildTarget": "mdb-angular-ui-kit-free:build:production"
             },
             "development": {
-              "browserTarget": "mdb-angular-ui-kit-free:build:development"
+              "buildTarget": "mdb-angular-ui-kit-free:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "mdb-angular-ui-kit-free:build"
+            "buildTarget": "mdb-angular-ui-kit-free:build"
           }
         },
         "test": {

@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
   pageTitle = 'NAGAMOCHI Japanese Language and Skills Development Academy';
+  subTitle = 'Trained by special trainers';
 }

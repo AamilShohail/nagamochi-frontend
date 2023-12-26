@@ -9,7 +9,8 @@ import { ContactDetails } from '@app/components/model/contact-details';
 export class FooterComponent {
   contactDetails: ContactDetails = {
     address: 'Kadahapola, Horambawa',
-    email: 'nagamochi.jacademy@gmail.com',
-    telephone: '+94 70 326 9897',
+    email: 'nagamochi.jpacademy@gmail.com',
+    whatsapp: '+94 70 326 9897',
+    telephone: '+94 71 181 7114',
   };
 }

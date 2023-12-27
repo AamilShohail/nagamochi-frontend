@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ContactDetails } from '@app/components/model/contact-details';
+import { ContactDetails } from '@app/components/model/contact-details.model';
 
 @Component({
   selector: 'app-footer',
@@ -8,7 +8,7 @@ import { ContactDetails } from '@app/components/model/contact-details';
 })
 export class FooterComponent {
   contactDetails: ContactDetails = {
-    address: 'Kadahapola, Horambawa',
+    address: 'Kadahapola, Narammala',
     email: 'nagamochi.jpacademy@gmail.com',
     whatsapp: '+94 70 326 9897',
     telephone: '+94 71 181 7114',

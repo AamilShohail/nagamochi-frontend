@@ -1,0 +1,14 @@
+<mdb-carousel
+  class="carousel-slider"
+  [controls]="true"
+  [indicators]="true"
+  [animation]="'fade'"
+>
+  <mdb-carousel-item *ngFor="let item of carouselImages; index as i">
+    <img
+      [src]="item.sanitizedUrl"
+      class="d-block w-100 img-thumbnail"
+      [alt]="item.imageFileName"
+    />
+  </mdb-carousel-item>
+</mdb-carousel>

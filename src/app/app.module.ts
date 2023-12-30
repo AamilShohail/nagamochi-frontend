@@ -41,7 +41,6 @@ import { MainPageModule } from './components/main-page/main-page.module';
     MdbRippleModule,
     MdbScrollspyModule,
     MdbTabsModule,
-    MdbTooltipModule,
     MdbValidationModule,
     MainPageModule,
   ],

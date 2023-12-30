@@ -9,10 +9,10 @@ import { DomSanitizer } from '@angular/platform-browser';
 export class AcademicInfoComponent implements OnInit {
   cardImageUrl: string;
   areasOfInterest: string[] = [
-    `සාත්තු සේවිකා`,
-    `ඉදිකිරිම`,
-    `කෘෂිකාර්මික`,
-    `ආහාර සැකසුම්`,
+    `Caregivers - සාත්තු සේවිකා`,
+    `Construction - ඉදිකිරිම`,
+    `Agriculture - කෘෂිකාර්මික`,
+    `Food services - ආහාර සැකසුම්`,
   ];
   cardTitle = 'Nagamochi japanese language Academy';
   info1 = `ජපන් ජාතික විදුහල්පතිනියක ගේ උපදේශනය හා අඨීක්ෂණය යටතේ  *Zoom තාක්ෂණය *හරහා 

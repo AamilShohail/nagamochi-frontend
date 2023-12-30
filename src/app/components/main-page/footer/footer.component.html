@@ -11,10 +11,21 @@
           <p><i class="fas fa-envelope me-3"></i> {{ contactDetails.email }}</p>
           <p><i class="fa fa-phone me-3"></i> {{ contactDetails.telephone }}</p>
           <p>
-            <i class="fab fa-whatsapp me-3"></i> {{ contactDetails.whatsapp }}
+            <i class="fab fa-whatsapp me-3"></i> {{ contactDetails.whatsApp }}
           </p>
         </div>
       </div>
     </div>
   </section>
+  <button
+    class="btn text-white page-footer__contact-us-button"
+    data-mdb-ripple-init
+    data-mdb-placement="top"
+    type="button"
+    [mdbTooltip]="contactUsTooltip"
+    placement="top"
+    (click)="contactUs()"
+  >
+    <i class="fab fa-whatsapp page-footer__contact-us-button--whatsapp"></i>
+  </button>
 </footer>
